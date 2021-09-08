@@ -1,30 +1,22 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+<div class="flex flex-col">
+  <div class="text-center flex justify-center items-center align-middle h-12 bg-gray-800 text-gray-200">
+    <h1 class="flex items-center">Intro to Web Course</h1>
   </div>
-  <router-view/>
+  <div class="flex flex-row justify-between">
+    <div class="flex flex-col w-48">
+      <router-link to="/" class="h-8 flex items-center">Home</router-link>
+      <router-link to="/about">Lesson 1</router-link>
+      <router-link to="/about">Lesson 2</router-link>
+      <router-link to="/about">Lesson 3</router-link>
+      <router-link to="/about">Lesson 4</router-link>
+    </div>
+    <router-view class="w-full"/>
+  </div>
+</div>
 </template>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+export default {
+  
 }
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+</script>
