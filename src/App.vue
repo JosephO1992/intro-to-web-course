@@ -4,39 +4,16 @@
     <h1 class="flex items-center">Intro to Web Course</h1>
   </div>
   <div class="flex flex-row justify-between">
-      <ul class="flex flex-col w-48">
-        <router-link v-for="(link, index) in links" :key="index" :to="link.route">
-          {{link.title}}  
-        </router-link>
-      </ul>
+      <navigation></navigation>
     <router-view class="w-full"/>
   </div>
 </div>
 </template>
 <script>
+
+import Navigation from './components/Navigation.vue'
 export default {
-  data () {
-    return {
-      links: [
-        {
-          title: 'Home',
-          route: '/'
-        },
-        {
-          title: 'Lesson 1',
-          route: '/lesson-1'
-        },
-        {
-          title: 'Lesson 2',
-          route: '/lesson-2'
-        },
-        {
-          title: 'Lesson 3',
-          route: '/lesson-3'
-        }
-      ]
-      
-    }
-  }
+  components: { Navigation },
+  
 }
 </script>
