@@ -1,6 +1,7 @@
 <template>
     <ul class="flex flex-col w-48">
-        <router-link v-for="(link, index) in links" :key="index" :to="link.route">
+        <router-link class="even:bg-gray-800 even:text-gray-200 h-8 flex justify-center items-center"  
+        v-for="(link, index) in links" :key="index" :to="link.route">
           {{link.title}}  
         </router-link>
       </ul>
