@@ -6,8 +6,8 @@ module.exports = {
   },
   variants: {
     extend: {
-      backgroundColor: ['even'],
-      textColor: ['even']
+      backgroundColor: ['even', 'active'],
+      textColor: ['even','active']
     },
   },
   plugins: [],
