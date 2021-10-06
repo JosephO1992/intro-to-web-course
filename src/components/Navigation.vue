@@ -1,6 +1,6 @@
 <template>
-    <ul class="flex flex-col w-48 h-full">
-        <router-link class="active:bg-gray-800 active:text-gray-200 h-8 flex justify-center items-center"  
+    <ul class="flex flex-col w-52 h-full">
+        <router-link class="active:bg-gray-800 active:text-gray-200 h-12 flex justify-center items-center hover:bg-gray-800 hover:text-gray-200"  
         v-for="(link, index) in links" :key="index" :to="link.route">
           {{link.title}}  
         </router-link>
