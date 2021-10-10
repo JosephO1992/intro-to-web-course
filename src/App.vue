@@ -7,7 +7,7 @@
     <navigation></navigation>
     <div class="flex flex-col flex-grow">
       <router-view class="w-full text-center flex-grow"/>
-      <bottom-navigation></bottom-navigation>
+      <!-- <bottom-navigation></bottom-navigation> -->
     </div>
     
   </div>
@@ -16,11 +16,11 @@
 <script>
 
 import Navigation from './components/Navigation.vue'
-import BottomNavigation from './components/BottomNavigation.vue'
+// import BottomNavigation from './components/BottomNavigation.vue'
 export default {
   components: { 
     Navigation,
-    BottomNavigation
+    // BottomNavigation
   },
   
 }
