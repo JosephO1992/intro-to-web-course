@@ -1,5 +1,5 @@
 <template>
-    <ul class="flex flex-col w-52 h-full">
+    <ul class="flex flex-col w-48 flex-shrink-0 h-full">
         <router-link class="h-12 flex justify-center items-center hover:bg-gray-800 hover:text-gray-200"  
         v-for="(link, index) in this.$router.getRoutes()" :key="index" :to="link.path">
           {{link.name}}  
