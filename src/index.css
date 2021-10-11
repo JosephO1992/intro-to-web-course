@@ -3,6 +3,5 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family:  'Inter', sans-serif;
-}
+
+@import url('https://fonts.googleapis.com/css?family=Niramit&display=swap')

@@ -59,7 +59,7 @@
 					},
 					{
 						step: 'Step 3',
-						instruction: 'In the top left, self File -> Open -> Open the folder where you saved index.html'
+						instruction: 'In the top left, File -> Open -> Open the folder where you saved index.html'
 					},
 					{
 						step: 'Step 4',
