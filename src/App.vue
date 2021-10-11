@@ -6,7 +6,7 @@
   <div class="flex flex-row justify-between h-full">
     <navigation></navigation>
     <div class="flex flex-col flex-grow">
-      <router-view class="w-full text-center flex-grow"/>
+      <router-view class="w-full text-center flex-grow h-full"/>
       <!-- <bottom-navigation></bottom-navigation> -->
     </div>
     
