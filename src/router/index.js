@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Welcome from '../components/Welcome.vue'
-import Lesson1 from '../components/Lesson1.vue'
-import Lesson2 from '../components/Lesson2.vue'
+import Welcome from '../views/Welcome.vue'
+import Lesson1 from '../views/Lesson1.vue'
+import Lesson2 from '../views/Lesson2.vue'
 
 const routes = [
   {
