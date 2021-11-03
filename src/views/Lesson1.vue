@@ -34,6 +34,11 @@
         <p>{{ tag.description }}</p>
       </li>
     </ul>
+     <p class="mb-4">
+      A rule to remember is that you always need to close the tag, otherwise is won't work. For example:
+      <code>&lt;h1&gt;Heading&lt;/h1&gt;</code>
+    </p>
+
   </page-layout>
 </template>
 <script>
@@ -61,7 +66,7 @@ export default {
         },
         {
           tag: "<li> - list item, appears in an <ul> / <ol>",
-          description: "This is what your list should contain.",
+          description: "This is what your list should contain. These go INSIDE the ul or ol tags.",
         },
         {
           tag: "<a> - anchor tag.",

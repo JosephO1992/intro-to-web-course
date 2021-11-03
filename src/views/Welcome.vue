@@ -1,6 +1,5 @@
 <template>
-  <div class="flex flex-col flex-grow h-full">
-    <div class="flex flex-col p-5 text-xl bg-gray-100 flex-grow text-left">
+    <page-layout>
       <h2 class="font-bold mb-8 underline border-b-2 pb-4 border-gray-800">
         Intro
       </h2>
@@ -48,14 +47,17 @@
         <div>✨</div>
         <div>🎆</div>
         <div>✨</div>
-      </div>
-    </div>
-  </div>
+   </div>
+</page-layout>
 </template>
 
 <script>
+import PageLayout from '../layouts/PageLayout.vue'
 export default {
   name: "Welcome",
+  components: {
+    PageLayout
+  },
   data() {
     return {
       aims: [
@@ -71,21 +73,25 @@ export default {
         },
         {
           step: "Step 2",
-          instruction:
-            "'Ctrl + N' to create a new file, then 'Ctrl + S' to save it. Save it in a folder (call it whatever you like), and save it as index.html",
+          instruction: "You will need an extension called \n'Live Server\' installed. On the left hand side, there is an icon with 4 blocks together called \n'Extenstions\n'. Click this, search for \n'Live Server\n' and it will be the first one that appears. Install and restart Visual Studio Code."
         },
         {
           step: "Step 3",
           instruction:
-            "In the top left, File -> Open -> Open the folder where you saved index.html",
+            "'Ctrl + N' to create a new file, then 'Ctrl + S' to save it. Save it in a folder (call it whatever you like), and save it as index.html",
         },
         {
           step: "Step 4",
           instruction:
-            "Type '!' then press tab, you will now get some boiler plate html code in the index.html file.",
+            "In the top left, File -> Open -> Open the folder where you saved index.html",
         },
         {
           step: "Step 5",
+          instruction:
+            "Type '!' then press tab, you will now get some boiler plate html code in the index.html file.",
+        },
+        {
+          step: "Step 6",
           instruction:
             "There will be a <title><title> tag, put 'My First Website' between the tags. Now between the <body><body> tags, add 'Hello World'. Next, press 'Ctrl + O + L'. Your first website should now be opening up in the browser!",
         },

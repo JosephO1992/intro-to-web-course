@@ -11,24 +11,24 @@
     <ol class="flex flex-col ml-8">
       <li class="mb-6 text-lg flex flex-col">
         <p class="mb-2">
-          A header tag <code>h1</code> with the name of your homepage.
+          A header tag <code>&lt;h1&gt;</code> with the name of your homepage.
         </p>
       </li>
       <li class="mb-6 text-lg flex flex-col">
         <p class="mb-2">
-          A p tag <code>p</code> with a brief introduction about yourself.
+          A p tag <code>&lt;p&gt;</code> with a brief introduction about yourself.
         </p>
       </li>
       <li class="mb-6 text-lg flex flex-col">
         <p class="mb-2">
-          2 lists, one using <code>ul</code> and another using <code>ol</code>.
+          2 lists, one using <code>&lt;ul&gt;</code> and another using <code>&lt;ol&gt;</code>.
           Ideas for this could be your favorite movies, foods, sports, football
           players, games, anything you like!
         </p>
       </li>
       <li class="mb-6 text-lg flex flex-col">
         <p class="mb-2">
-          Finally, an <code>a</code> which can link to your favorite website,
+          Finally, an <code>&lt;a&gt;</code> which can link to your favorite website,
           you can make this related to your list if you like.
         </p>
       </li>
